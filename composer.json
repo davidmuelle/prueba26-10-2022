@@ -1,0 +1,19 @@
+{
+    "name": "david/webservice1",
+    "description": "api themovie",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "SRC\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "davidmuelle"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
